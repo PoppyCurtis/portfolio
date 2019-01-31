@@ -17,7 +17,7 @@ class App extends Component {
         <img src={lakedistrict} alt="lakedistrict" />
         <img src={dales} alt="dales" />
         <img src={london} alt="London"/>
-        <img src={chilterns} alt="chilterns"/>
+        <img src={chilterns} alt="chiltern"/>
         <img src= {southwest} alt="south-west"/>
         <img src= {IOW} alt="IOW"/>
         <img src= {west} alt="west"/>
