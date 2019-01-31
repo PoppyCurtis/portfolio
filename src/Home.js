@@ -10,24 +10,23 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <div>
-           
+
             <h1 className="title"> The World At Your Footsteps </h1>
             <h2 className="title">About This Page</h2>
             <p className="text"> I am a London based technology enthusiast who is
               passionate about walking, travelling and learning.
               This website has been designed to showcase some of the
               places that I have visited across the UK.
-    </p>
+            </p>
             <h2 className="title">Photo Gallery</h2>
-            <h3 className="title"> Photos, Tips and Walks from all over the UK.
-    </h3>
+            <h3 className="title"> Photos, Tips and Walks from all over the UK.</h3>
             <div className="container">
-                <Link to="/photo-gallery">
+                <Link to="/photo-gallery/iow">
                     <img classname="picture" name="Isle of Wight" src={IOW} alt="IOW" />
                     <h1 className="imgetitle">Isle of Wight</h1>
                 </Link>
 
-                <Link to="/photo-gallery">
+                <Link to="/photo-gallery/west">
                     <img classname="picture" name="West Country" src={west} alt="west" />
                     <h1 className="imgetitle">West Country</h1>
                 </Link>

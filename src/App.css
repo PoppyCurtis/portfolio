@@ -12,18 +12,24 @@ img {
 .picture{
     flex: 1;
 }
-
+.touristpic {
+  width: 60%;
+  
+}
 .title {
     color: #1C4772;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    text-decoration: underline;
+    text-decoration: underline ;
+    padding-left: 30px;
+  
 }
 .text {
     color: #1C4772;
     text-align: center;
-    padding: 20px, 20px, 20px, 20px;
+    padding: 20px, 20px, 20px, 20px; 
+     margin: 30px;
 }
 body {
 background-color: #BBE0FD;

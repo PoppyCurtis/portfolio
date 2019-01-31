@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import PhotoGalleryIOW from './PhotoGalleryIOW.js';
+import PhotoGalleryWest from './PhotoGalleryWest';
+import information from './Info';
 import Home from './Home';
 
 import './App.css';
@@ -11,17 +14,13 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path="/" component={Home} />
-          <Route exact path="/:photo-gallery" component={PhotoGallery} />
+          <Route exact path="/photo-gallery/iow" component={PhotoGalleryIOW} />
+          <Route exact path="/photo-gallery/west" component={PhotoGalleryWest} />
+          <Route exact path="/photo-gallery" component={information} />
         </div>
       </Router>
     );
   }
 }
-function PhotoGallery() {
-  return (
-    <div>
-      <h1>Information</h1>
-    </div>
-  );
-}
+
 export default App;
