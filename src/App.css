@@ -1,16 +1,18 @@
 
-
+.topBOx {
+    background-color: green; 
+}
 img {
- width: 40%;
+ width: 60%;
  height: 120px;
- margin: 5px;
 }
 .container {
     display: flex;
 }
-.picture {
-    flex:1;
+.picture{
+    flex: 1;
 }
+
 .title {
     color: #1C4772;
     text-align: center;
@@ -18,13 +20,28 @@ img {
     font-style: italic;
     text-decoration: underline;
 }
+.text {
+    color: #1C4772;
+    text-align: center;
+    padding: 20px, 20px, 20px, 20px;
+}
 body {
 background-color: #BBE0FD;
 }
+.imgetitle{
+    font-size: 0.8em;
+   padding-left: 50px;
+   text-decoration: underline;
+}
 @media only screen and (max-width: 600px) {
-   
+    .text {
+        display: inline;
+    }
+    .title {
+        display: inherit;
+    }
       .container {
-        flex-direction: column;
+        display: block;
       }
     
   }
