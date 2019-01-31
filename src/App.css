@@ -1,17 +1,30 @@
 
 
 img {
- width: 25%;
+ width: 40%;
+ height: 120px;
+ margin: 5px;
 }
-#container {
+.container {
     display: flex;
 }
-#picture {
+.picture {
     flex:1;
 }
-#title {
-    color: blue;
+.title {
+    color: #1C4772;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
 }
 body {
 background-color: #BBE0FD;
 }
+@media only screen and (max-width: 600px) {
+   
+      .container {
+        flex-direction: column;
+      }
+    
+  }

@@ -15,22 +15,24 @@ class App extends Component {
     return (
       <div>
         <h1 className="title"> The World At Your Footsteps </h1>
-        <p> I am a London based technology enthusiast who is 
+        <h2 className="title">About This Page</h2>
+        <p> I am a London based technology enthusiast who is
           passionate about walking, travelling and learning.
           This website has been designed to showcase some of the
           places that I have visited across the UK.
         </p>
-        <h2>Gallery</h2>
+        <h2 className="title">Gallery</h2>
         <div className="container">
-           <img classname="picture" src={IOW} alt="IOW" />
+          <img classname="picture" src={IOW} alt="IOW" />
           <img classname="picture" src={dales} alt="dales" />
-         <img classname="picture" src={west} alt="west" /> 
+          <img classname="picture" src={west} alt="west" />
           <img classname="picture" src={chilterns} alt="chiltern" />
         </div>
 
         <div className="container">
-        <img classname="picture" src={southwest} alt="south-west" />
+          <img classname="picture" src={southwest} alt="south-west" />
           <img classname="picture" src={lakedistrict} alt="lake-district" />
+        
           <img classname="picture" src={london} alt="London" />
           <img classname="picture" src={norfolk} alt="norfolk" />
         </div>
