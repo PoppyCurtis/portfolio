@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <img src={lakedistrict} alt="lakedistrict" />
+        <img src={lakedistrict} alt="lake-district" />
         <img src={dales} alt="dales" />
         <img src={london} alt="London"/>
         <img src={chilterns} alt="chilterns"/>
