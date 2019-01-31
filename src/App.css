@@ -1,5 +1,17 @@
 
 
 img {
- width: 100%;
+ width: 25%;
+}
+#container {
+    display: flex;
+}
+#picture {
+    flex:1;
+}
+#title {
+    color: blue;
+}
+body {
+background-color: #BBE0FD;
 }
