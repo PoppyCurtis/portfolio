@@ -1,38 +1,55 @@
 
-.topBOx {
-    background-color: green; 
+.coverpic {
+    width: 100%;
+    height: 550px;
+    margin: 0;
+    overflow: hidden;
 }
-img {
- width: 60%;
- height: 120px;
-}
+
 .container {
-    display: flex;
+    background-color: azure;
+    position: relative;
+    top: 400px;
+    margin: 0;
+    height: 200px;
+    opacity: 1;
 }
-.picture{
-    flex: 1;
-}
-.touristpic {
-  width: 60%;
-  
-}
+
 .title {
     color: #1C4772;
     text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    text-decoration: underline ;
-    padding-left: 30px;
-  
+    position: relative;
+    margin: 0;
+    opacity: 1;
+    background-color: azure;
+}
+
+#titleheading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1C4772;
+    text-align: center;
+    font-size: 1.7em;
+    opacity: 1;
+
 }
 .text {
     color: #1C4772;
     text-align: center;
     padding: 20px, 20px, 20px, 20px; 
-     margin: 30px;
+    font-size: 1.2em;
 }
+.code {
+    position: static;
+    height: 50px;
+}
+   
+
 body {
-background-color: #BBE0FD;
+    background-image: url("./Images/cover.jpg");
+    opacity: 1;
 }
 .imgetitle{
     font-size: 0.8em;
@@ -40,14 +57,16 @@ background-color: #BBE0FD;
    text-decoration: underline;
 }
 @media only screen and (max-width: 600px) {
+    .coverpic{
+        height: 100px;
+    }
     .text {
         display: inline;
     }
     .title {
         display: inherit;
     }
-      .container {
+    .profilepic {
         display: block;
-      }
-    
+    }
   }
