@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.076f0743.chunk.css",
-  "main.js": "/portfolio/static/js/main.af04a783.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.af04a783.chunk.js.map",
-  "static/js/1.235b43a1.chunk.js": "/portfolio/static/js/1.235b43a1.chunk.js",
-  "static/js/1.235b43a1.chunk.js.map": "/portfolio/static/js/1.235b43a1.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.10e231b4.chunk.css",
+  "main.js": "/portfolio/static/js/main.abb999b0.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.abb999b0.chunk.js.map",
+  "static/js/1.c84ab261.chunk.js": "/portfolio/static/js/1.c84ab261.chunk.js",
+  "static/js/1.c84ab261.chunk.js.map": "/portfolio/static/js/1.c84ab261.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/poppy.JPG": "/portfolio/static/media/poppy.91577282.JPG",
@@ -11,8 +11,8 @@
   "static/media/database.png": "/portfolio/static/media/database.1e6a8cd5.png",
   "static/media/responsive.png": "/portfolio/static/media/responsive.0422b0f6.png",
   "static/media/App.css": "/portfolio/static/media/cover.1004a1e7.jpg",
-  "static/css/main.076f0743.chunk.css.map": "/portfolio/static/css/main.076f0743.chunk.css.map",
+  "static/css/main.10e231b4.chunk.css.map": "/portfolio/static/css/main.10e231b4.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.a48a254707ea06a40ff8e4f627286c60.js": "/portfolio/precache-manifest.a48a254707ea06a40ff8e4f627286c60.js",
+  "precache-manifest.df34578d69b85add179acbd36c8e2926.js": "/portfolio/precache-manifest.df34578d69b85add179acbd36c8e2926.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
