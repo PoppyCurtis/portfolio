@@ -1,0 +1,85 @@
+.about-me {  
+    margin: 0 auto;
+    background-color: #FDE8F4;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    font-size: 1em;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #020259;
+}
+.about-me:after{  
+    content: '';
+    display: block;
+    clear: both;
+}
+.about-me .col-left, .about-me .col-right {
+    width: 50%;
+    float: left;
+} 
+.about-me h1, h2, h3 { 
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.about-me h1:after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #1661d6;
+}
+.about-me .col-left img{
+  max-width: 100% ;
+  border-radius: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.about-me p {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    font-size: 17px;
+    font-family:  'Open Sans', sans-serif;
+}
+.about-me .button{
+    position: absolute;
+    left: 73%;
+    top: 67%;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 1);
+    font-weight: 300;
+    background-color:  #E3B120;
+    border-color: #E3B120;
+    border-radius: 5%;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkblue;
+    display: inline-block;
+}
+.about-me .button:hover{
+    background-color: white;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+@media only screen and (max-width: 800px) {
+    .about-me {
+        height: 200%;
+    }
+    .about-me img {
+        left: 4%;
+        top: 2%;
+     }
+     .about-me p {
+         font-size: 13px;
+     }
+     }
