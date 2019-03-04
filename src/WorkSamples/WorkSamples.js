@@ -5,20 +5,18 @@ import './WorkSamples.css';
 
 const mystyles = {
     backgroundImage: `url(${kodflix})`,
-    backgroundSize: "contain",
-    overflow: 'hidden',
+    backgroundSize: "cover",
     backgroundRepeat: 'no-repeat',
 };
 const mystyles2 = {
     backgroundImage: `url(${proj2})`,
-    backgroundSize: "contain",
-    overflow: 'hidden',
+    backgroundSize: "cover",
     backgroundRepeat: 'no-repeat',
 };
 class WorkSamples extends Component {
     render() {
         return (
-            <div className="worksamples" >
+            <div className="worksamples" id="projects">
                 <h3>Projects</h3>
                 <h2>Work Samples of Code Projects</h2>
                 <div className="project1" style={mystyles}>

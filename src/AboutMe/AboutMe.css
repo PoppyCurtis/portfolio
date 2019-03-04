@@ -2,11 +2,11 @@
     margin: 0 auto;
     background-color: #FDE8F4;
     width: 100%;
-    position: absolute;
     height: 100vh;
     font-size: 1em;
     padding-top: 70px;
     padding-bottom: 70px;
+    position: relative;
     color: #020259;
 }
 .about-me:after{  
@@ -14,27 +14,24 @@
     display: block;
     clear: both;
 }
-.about-me .col-left, .about-me .col-right {
-    width: 50%;
+.about-me .col-left{
+    width: 30%;
     float: left;
 } 
+.about-me .col-right {
+    width: 70%;
+   
+    float: right;
+}
+
 .about-me h1, h2, h3 { 
     text-align: center;
     text-transform: uppercase;
     position: relative;
 }
-.about-me h1:after{
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 2px;
-    margin-left: -40px;
-    left: 50%;
-    bottom: 0px;
-    background-color: #1661d6;
-}
+
 .about-me .col-left img{
-  max-width: 100% ;
+  max-width: 50% ;
   border-radius: 50%;
   padding-left: 5%;
   padding-right: 5%;
@@ -45,14 +42,17 @@
     padding-right: 20px;
     margin-left: 5%;
     margin-right: 5%;
-    display: inline-block;
-    font-size: 17px;
+    display: block;
+    font-size: 15px;
     font-family:  'Open Sans', sans-serif;
+    overflow: hidden;
 }
 .about-me .button{
-    position: absolute;
-    left: 73%;
+    position: relative;
+    left: 40%;
     top: 67%;
+    box-sizing: content-box;
+    width: 100px;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 1);
     font-weight: 300;
     background-color:  #E3B120;
@@ -71,15 +71,34 @@
     color: darkblue;
     border: 1px solid darkblue;
 }
-@media only screen and (max-width: 800px) {
-    .about-me {
-        height: 200%;
+
+@media only screen and (max-width: 1000px ){
+    
+    .about-me h1, h2, h3 { 
+      padding-top: 5px;
+      padding-right: 20px;
+      font-size: 17px;
     }
-    .about-me img {
-        left: 4%;
-        top: 2%;
-     }
+    .about-me .col-right {
+        min-width: 400px;
+    }
+    .about-me{
+        flex-wrap: wrap;
+        overflow-inline: inherit;
+    }
+   
      .about-me p {
-         font-size: 13px;
+         font-size: 12px;
+         padding-left: 20px;
      }
+     .about-me .button{
+     position: relative;
+     left: 25%; 
+     top: 67%;
      }
+     .about-me{
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%; 
+      }  
+    }

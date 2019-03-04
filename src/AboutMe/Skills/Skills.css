@@ -1,17 +1,16 @@
 .skills {
     background-color: #186CDE;
-    position: absolute;
     width: 100%;
     top: 200%;
+    position: relative;
     margin: 0 auto;
-    height: 50vh;
+    height: 100vh;
     text-align: center;
-    padding-bottom: 120px;
     text-decoration: none;
-    padding-top: 120px;
+    padding-top: 50px; 
 }
 .skills h2{
-    font-size: 48px;
+    font-size: 35px;
     text-transform: uppercase;
     text-decoration-line: none;
     color: #fff;
@@ -19,44 +18,45 @@
     margin-top: 0;
     padding: 0;
 }
-.skills h2:after{
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 2px;
-    margin-left: -40px;
-    left: 50%;
-    bottom: 0px;
-    background-color: #E3B120;
-}
 .skills h3 {
     color:  #E3B120;
     text-transform: uppercase;
 }
-.skills > .row {
+.skills  .row {
     display: flex;
+    color: #fff;  
     justify-content: space-around;
+    font-size: 60px;
 }
-.skills > .row span, i {
-    background-color: #fff;
-    font-size: 100px;
-    display: inline-block;
-    border-radius: 20%;
-    color: #E3B120;
-    padding: 5px 5px 5px 5px;
+.skills .row .skillname {
+    padding-top:1px;
 }
 
 .skills > .row h4 {
     margin-bottom: 8px;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 20px;
     color: #fff;
 }
 
 
-@media only screen and (max-width: 723px) {
-    .worksamples {
-        top: 230%;
-        margin: 0 auto;
-     }
+@media only screen and (max-width: 1000px) {
+    
+    .skills h2{
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .skills  .row {
+        display: flex;
+        color: #fff;  
+        justify-content: space-around;
+        font-size: 30px;
+    }
+    .skills{
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%; 
+      }  
+
      }

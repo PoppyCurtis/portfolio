@@ -4,15 +4,19 @@ import './Skills.css';
 class Skills extends Component {
     render() {
         return (
-            <div className="skills">
+            <div className="skills" id="skills">
                 <h3>Skills</h3>
                 <h2>Work Skills and Methodologies</h2>
                 <div className="row">
                     <Icons myIcon={iconsObj[2].icon} myTitle={iconsObj[2].name} />
-                    <Icons myIcon={iconsObj[1].icon} myTitle={iconsObj[1].name} />
+                    <Icons myIcon={iconsObj[1].icon} myTitle={iconsObj[1].name} /> 
                     <Icons myIcon={iconsObj[0].icon} myTitle={iconsObj[0].name} />
+                </div>
+                <br/>
+            <div className="row">
                     <Icons myIcon={iconsObj[3].icon} myTitle={iconsObj[3].name} />
                     <Icons myIcon={iconsObj[4].icon} myTitle={iconsObj[4].name} />
+
                 </div>
             </div>
         );
@@ -21,23 +25,23 @@ class Skills extends Component {
 
 const iconsObj = [
     {
-        icon: <i class="fab fa-js-square"></i>,
+        icon: <i className="skilllogo" class="fab fa-js-square"></i>,
         name: 'JavaScript',
     },
     {
-        icon: <i class="fab fa-css3-alt"></i>,
+        icon: <i className="skilllogo" class="fab fa-css3-alt"></i>,
         name: 'CSS',
     },
     {
-        icon: <i class="fab fa-css3-alt"></i>,
+        icon: <i className="skilllogo" class="fab fa-html5"></i>,
         name: 'HTML5',
     },
     {
-        icon: <i class="fab fa-react"></i>,
+        icon: <i className="skilllogo" class="fab fa-react"></i>,
         name: 'Reactjs',
     },
     {
-        icon: <i class="fab fa-node"></i>,
+        icon: <i className="skilllogo" class="fab fa-node"></i>,
         name: 'node JS',
     },
 ]
@@ -45,10 +49,8 @@ class Icons extends Component {
     render() {
         return (
             <div>
-                <span>
                     {this.props.myIcon}
-                </span>
-                <h4>{this.props.myTitle}</h4>
+                <h4 className="skillname">{this.props.myTitle}</h4>
             </div>
         );
     }

@@ -1,25 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
 import cover from '../Images/background.JPG';
+import NavBar from '../getNavBar/getNavBar';
+import DrawerToggleButton from '../getNavBar/DrawerToggleButton';
 import './Header.css';
+import '../getNavBar/getNavBar.css';
+
 
 const mystyles = {
     backgroundImage: `url(${cover})`,
-    height: "75vh",
+    height: "100vh",
     backgroundSize: "cover",
 };
-class Header extends Component {
-
-    render() {
-        return (
+const Header = props =>  (
             <header style={mystyles}>
-                <div className="container">
-                    <h1>{this.props.title}</h1>
-                    <h3>{this.props.subtitle}</h3>
+                <div >
+                    <NavBar/>
+                    <DrawerToggleButton className="closed"click={props.drawerClickHandler} />
+                </div>
+                <div className="container" id="home">
+                    <h1>Hi, I'm Penelope Curtis</h1>
+                    <h3>London based Full Stack Developer</h3>
                     <a className="button1" href="https://github.com/PoppyCurtis" target="_blank">
-                    {this.props.button}</a>
+                        View Work</a>
                 </div>
             </header>
         );
-    }
-}
-export default Header
+  
+export default Header;
