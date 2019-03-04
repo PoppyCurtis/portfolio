@@ -20,14 +20,11 @@
   }
   .topnav ul { 
     display: inline;
-    /*display: flex; */
     margin: 0;
     list-style: none;  
     margin-right: 8px;
     position: relative;
     right: 7px;
-    /*top:12px;*/
-    /*float: right;*/  
   }
  .topnav ul li {   
       display: inline;
