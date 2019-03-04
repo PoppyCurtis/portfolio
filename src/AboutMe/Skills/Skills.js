@@ -5,8 +5,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="skills" id="skills">
-                <h3>Skills</h3>
-                <h2>Work Skills and Methodologies</h2>
+                <h1>Work Skills and Methodologies</h1>
                 <div className="row">
                     <Icons myIcon={iconsObj[2].icon} myTitle={iconsObj[2].name} />
                     <Icons myIcon={iconsObj[1].icon} myTitle={iconsObj[1].name} /> 
@@ -16,7 +15,6 @@ class Skills extends Component {
             <div className="row">
                     <Icons myIcon={iconsObj[3].icon} myTitle={iconsObj[3].name} />
                     <Icons myIcon={iconsObj[4].icon} myTitle={iconsObj[4].name} />
-
                 </div>
             </div>
         );

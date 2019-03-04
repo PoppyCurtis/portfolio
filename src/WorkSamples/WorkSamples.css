@@ -1,23 +1,22 @@
 .worksamples {
     background-color: #95B5DC;
     width: 100%;
-    top: 250%;
     margin: 0 auto;
-    height: 100vh;
     text-align: center;
     padding-bottom: 120px;
     padding-top: 50px;
-    
+    content: "";
+    clear: both;
+    display: table;
 }
 
-.worksamples h2{
+.worksamples h1{
     font-size: 35px;
     text-transform: uppercase;
     text-decoration-line: none;
     color: #1661d6;
     margin-bottom: 48px;
     margin-top: 0;
-    padding: 0;
 }
 .worksamples h3 {
     color: #fff;

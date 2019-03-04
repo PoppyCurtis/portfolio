@@ -4,12 +4,12 @@
     top: 200%;
     position: relative;
     margin: 0 auto;
-    height: 100vh;
     text-align: center;
     text-decoration: none;
-    padding-top: 50px; 
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-.skills h2{
+.skills h1{
     font-size: 35px;
     text-transform: uppercase;
     text-decoration-line: none;

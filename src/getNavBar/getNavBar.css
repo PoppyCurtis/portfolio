@@ -53,14 +53,15 @@
 
 
   .icon {
-    padding-left: 20px;
-    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
     flex: 1;
   }
   .iconholder {
     display: flex;
     position: 500px;  
     display: flex;
+    padding-right: 20px;
 }
  .navbar-toggle {
   position: absolute;
