@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.30725df5.chunk.css",
-  "main.js": "/portfolio/static/js/main.9efd81f5.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.9efd81f5.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.c641ca82.chunk.css",
+  "main.js": "/portfolio/static/js/main.6ea7a91c.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.6ea7a91c.chunk.js.map",
   "static/js/1.7232d16c.chunk.js": "/portfolio/static/js/1.7232d16c.chunk.js",
   "static/js/1.7232d16c.chunk.js.map": "/portfolio/static/js/1.7232d16c.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -10,8 +10,8 @@
   "static/media/me2.JPG": "/portfolio/static/media/me2.b97029dd.JPG",
   "static/media/kodflix.JPG": "/portfolio/static/media/kodflix.ca260110.JPG",
   "static/media/8daysaweek.JPG": "/portfolio/static/media/8daysaweek.dbe177df.JPG",
-  "static/css/main.30725df5.chunk.css.map": "/portfolio/static/css/main.30725df5.chunk.css.map",
+  "static/css/main.c641ca82.chunk.css.map": "/portfolio/static/css/main.c641ca82.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.e9b6170df28408363a266c138ebec250.js": "/portfolio/precache-manifest.e9b6170df28408363a266c138ebec250.js",
+  "precache-manifest.e0332e4768e8fed77b590d78f1234308.js": "/portfolio/precache-manifest.e0332e4768e8fed77b590d78f1234308.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
