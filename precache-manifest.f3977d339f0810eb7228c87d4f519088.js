@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6ea7a91c8e265a14094f",
-    "url": "/portfolio/static/css/main.c641ca82.chunk.css"
+    "revision": "90082d97b338c2503a5c",
+    "url": "/portfolio/static/css/main.a696b597.chunk.css"
   },
   {
-    "revision": "6ea7a91c8e265a14094f",
-    "url": "/portfolio/static/js/main.6ea7a91c.chunk.js"
+    "revision": "90082d97b338c2503a5c",
+    "url": "/portfolio/static/js/main.90082d97.chunk.js"
   },
   {
     "revision": "7232d16c4dd873718abf",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/8daysaweek.dbe177df.JPG"
   },
   {
-    "revision": "867b83bb60fb73c7530b869ef4cc4bda",
+    "revision": "562f6644acc864ac8bafe38e35cca9fb",
     "url": "/portfolio/index.html"
   }
 ];
