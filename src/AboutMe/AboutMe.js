@@ -30,7 +30,7 @@ class AboutMe extends Component {
                             </p>
 
                        
-                        <a className="button" href="https://mindpopping.wordpress.com/"  target="_blank">{this.props.button}</a>
+                        <a className="button" href="https://mindpopping.wordpress.com/"  target="_blank" rel="noopener noreferrer">{this.props.button}</a>
                     </div>
                 </div>
      

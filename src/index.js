@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
-import Header from './Header/Header';
+import Header from './Header/Hero';
 import AboutMe from './AboutMe/AboutMe';
 import WorkSamples from './WorkSamples/WorkSamples';
 import Skills from './AboutMe/Skills/Skills';

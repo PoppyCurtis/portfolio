@@ -32,27 +32,23 @@ header .button1:hover{
     header h1 {
         margin: 0;
         padding-top: 50px;
-        padding-left: 20px;
-    }
-      header .button1{ 
-       position: relative;
-       left: 8%;
         
-      
     }
+     
 }
 @media only screen and (max-width: 1000px) {
     header {
         margin: 0 auto;
         width: 100%;
         margin-right: 0;
-        margin-left: 0;
+        margin-left: 0; 
+        align-items: center;
+        display: inline-block;
     }
-  
-}
-    header .button1{ 
+   header .button1{ 
        
         box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 1);
+        position: relative;
         font-weight: 300;
         background-color:  #E3B120;
         border-color: #E3B120;
@@ -63,8 +59,10 @@ header .button1:hover{
         padding-left: 10px;
         padding-right: 10px;
         color: darkblue;
-        display: inline-block;
+        
     
     }
+}
+   
         
     

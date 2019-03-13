@@ -74,12 +74,16 @@
     
     .about-me h1, h2, h3 { 
       padding-top: 5px;
-      padding-right: 20px;
       font-size: 17px;
     }
     .about-me .col-right {
-        min-width: 400px;
+        min-width: 200px;
     }
+    .about-me .col-left img{
+        max-width: 100px ;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
     .about-me{
         flex-wrap: wrap;
         overflow-inline: inherit;
@@ -87,12 +91,13 @@
    
      .about-me p {
          font-size: 12px;
-         padding-left: 20px;
+         display: inline-block;
      }
      .about-me .button{
      position: relative;
      left: 25%; 
      top: 67%;
+     height: 10%;
      }
      .about-me{
         margin-right: 0;

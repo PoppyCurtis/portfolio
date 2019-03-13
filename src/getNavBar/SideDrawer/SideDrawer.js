@@ -1,5 +1,4 @@
 import React from 'react';
-import DrawerToggleButton from '../DrawerToggleButton';
 import './SideDrawer.css';
 
 const sidesections = [{ id: "Home", className: "smoothscroll", href: "#home" }, { id: "About Me", className: "smoothscroll", href: "#about-me" },

@@ -1,9 +1,9 @@
 import React from 'react';
 import cover from '../Images/background.JPG';
-import NavBar from '../getNavBar/getNavBar';
+import NavBar from '../getNavBar/NavBar';
 import DrawerToggleButton from '../getNavBar/DrawerToggleButton';
-import './Header.css';
-import '../getNavBar/getNavBar.css';
+import './Hero.css';
+import '../getNavBar/NavBar.css';
 
 
 const mystyles = {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './getNavBar.css';
+import './NavBar.css';
 
 
         const sections = [{ name: "Home", className: "smoothscroll", href: "#home" }, { name: "About Me", className: "smoothscroll", href: "#about-me" },
