@@ -7,7 +7,6 @@ import WorkSamples from './WorkSamples/WorkSamples';
 import Skills from './AboutMe/Skills/Skills';
 import Footer from './Footer/Footer';
 import SideDrawer from './getNavBar/SideDrawer/SideDrawer';
-import MenuDrawerToggleButton from './getNavBar/DrawerToggleButton';
 import * as serviceWorker from './serviceWorker';
 
 

@@ -21,12 +21,12 @@ class WorkSamples extends Component {
                 <div>
                 <div className="project1" style={mystyles}>
                     <div className="overlay">
-                        <a href="https://kodflix-poppy.herokuapp.com/" target="_blank">Kodflix</a>
+                        <a href="https://kodflix-poppy.herokuapp.com/" target="_blank" rel="noopener noreferrer">Kodflix</a>
                     </div>
                 </div>
                 <div className="project2" style={mystyles2}>
                     <div className="overlay">
-                        <a href="https://kodiri.github.io/8-days-a-week/#/" target="_blank">8 days a week</a>
+                        <a href="https://kodiri.github.io/8-days-a-week/#/" target="_blank" rel="noopener noreferrer">8 days a week</a>
                     </div>
                 </div>
                 </div>

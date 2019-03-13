@@ -20,7 +20,7 @@ const Header = props =>  (
                 <div className="container" id="home">
                     <h1>Hi, I'm Penelope Curtis</h1>
                     <h3>London based Full Stack Developer</h3>
-                    <a className="button1" href="https://github.com/PoppyCurtis" target="_blank">
+                    <a className="button1" href="https://github.com/PoppyCurtis" target="_blank" rel="noopener noreferrer">
                         View Work</a>
                 </div>
             </header>
